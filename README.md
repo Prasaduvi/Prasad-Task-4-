@@ -26,3 +26,17 @@ Windows Defender Firewall with Advanced Security.
 
 6.  Removed the Test Block Rule:
     * (You would describe the steps here, e.g., "Navigated back to 'Inbound Rules', located the 'Block Telnet Inbound' rule, right-clicked, and selected 'Delete'.")
+
+## Summary of How Firewall Filters Traffic
+A firewall acts as a security guard for a network, controlling incoming and outgoing network traffic based on a set of predefined security rules. It functions by examining network packets against these rules.
+
+* Inbound Rules: These rules govern traffic attempting to enter the network or system.For instance, blocking port 23 for Telnet prevents unencrypted remote access, enhancing security.
+* Outbound Rules: These rules control traffic originating from inside the network or system and attempting to leave.
+
+Firewalls can filter traffic based on various criteria, including:
+* IP Addresses: Allowing or denying communication with specific IP addresses.
+* Ports: Controlling access to specific services (e.g., HTTP on port 80, SSH on port 22).
+* Protocols: Filtering based on TCP, UDP, ICMP, etc.
+* Applications: Allowing or blocking specific programs from accessing the network.
+
+By implementing these rules, firewalls help to prevent unauthorized access, block malicious software from communicating, and protect sensitive data, thereby significantly improving network security.
